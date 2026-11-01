@@ -1,0 +1,22 @@
+{
+  "name": "voidstrike",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "server": "node server/server.js",
+    "dev": "node build.mjs --serve",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "three": "0.160.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
